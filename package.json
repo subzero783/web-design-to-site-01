@@ -1,0 +1,44 @@
+{
+    "name": "web-design-to-site-01",
+    "version": "1.0.0",
+    "description": "web-design-to-site-01",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"webpack -w --env dev\" \"cd assets/scss && npm run styles\"",
+      "build": "concurrently \"webpack --env production\" \"cd assets/scss && npm run build\""
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "Gustavo Amezcua",
+    "license": "ISC",
+    "homepage": "",
+    "dependencies": {
+      "@babel/core": "^7.19.3",
+      "aos": "^2.3.4",
+      "autoprefixer": "^10.4.12",
+      "babel-loader": "^8.2.5",
+      "bootstrap": "^5.3.2",
+      "browser-sync-webpack-plugin": "^2.3.0",
+      "css-minimizer-webpack-plugin": "^4.2.0",
+      "jquery": "^3.6.1",
+      "mini-css-extract-plugin": "^2.6.1",
+      "simple-parallax-js": "^5.6.2",
+      "slick-carousel": "^1.8.1",
+      "webpack-cli": "^4.10.0"
+    },
+    "devDependencies": {
+      "concurrently": "^7.6.0",
+      "css-loader": "^6.7.1",
+      "sass": "^1.55.0",
+      "sass-loader": "^13.1.0",
+      "style-loader": "^3.3.1",
+      "svg-inline-loader": "^0.8.2",
+      "webpack": "^5.74.0"
+    },
+    "directories": {
+      "doc": "docs"
+    }
+  }
+  

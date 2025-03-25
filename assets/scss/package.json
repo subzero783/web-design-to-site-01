@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Compiles scss files into output css file",
+  "main": "index.js",
+  "scripts": {
+    "styles": "sass --no-source-map --watch --style=compressed main.scss:../build/css/main.scss.css",
+    "build": "sass --no-source-map --watch --style=compressed main.scss:../build/css/main.scss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "wordpress",
+    "scss",
+    "sass"
+  ],
+  "author": "Gustavo Amezcua",
+  "license": "ISC",
+  "homepage": ""
+}
